@@ -15,6 +15,7 @@
 		BD34B87423CB84200065333C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34B87223CB84200065333C /* LaunchScreen.storyboard */; };
 		BD34B87F23CB84200065333C /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34B87E23CB84200065333C /* DesignCodeTests.swift */; };
 		BD34B88A23CB84200065333C /* DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34B88923CB84200065333C /* DesignCodeUITests.swift */; };
+		BD52A3A623D924EB00180454 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52A3A523D924EB00180454 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BD34B88523CB84200065333C /* DesignCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD34B88923CB84200065333C /* DesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITests.swift; sourceTree = "<group>"; };
 		BD34B88B23CB84200065333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD52A3A523D924EB00180454 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				BD34B86723CB841E0065333C /* AppDelegate.swift */,
 				BD34B86923CB841E0065333C /* SceneDelegate.swift */,
 				BD34B86B23CB841E0065333C /* ContentView.swift */,
+				BD52A3A523D924EB00180454 /* MenuView.swift */,
 				BD34B86D23CB84200065333C /* Assets.xcassets */,
 				BD34B87223CB84200065333C /* LaunchScreen.storyboard */,
 				BD34B87523CB84200065333C /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD34B86823CB841E0065333C /* AppDelegate.swift in Sources */,
+				BD52A3A623D924EB00180454 /* MenuView.swift in Sources */,
 				BD34B86A23CB841E0065333C /* SceneDelegate.swift in Sources */,
 				BD34B86C23CB841E0065333C /* ContentView.swift in Sources */,
 			);
