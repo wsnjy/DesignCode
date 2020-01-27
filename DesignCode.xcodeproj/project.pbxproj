@@ -16,6 +16,8 @@
 		BD34B87F23CB84200065333C /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34B87E23CB84200065333C /* DesignCodeTests.swift */; };
 		BD34B88A23CB84200065333C /* DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34B88923CB84200065333C /* DesignCodeUITests.swift */; };
 		BD52A3A623D924EB00180454 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52A3A523D924EB00180454 /* MenuView.swift */; };
+		BD8A774123DBC0FD00DCFAF6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A774023DBC0FD00DCFAF6 /* Home.swift */; };
+		BD8A774323DE895C00DCFAF6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A774223DE895C00DCFAF6 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BD34B88923CB84200065333C /* DesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITests.swift; sourceTree = "<group>"; };
 		BD34B88B23CB84200065333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD52A3A523D924EB00180454 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		BD8A774023DBC0FD00DCFAF6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BD8A774223DE895C00DCFAF6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				BD34B86723CB841E0065333C /* AppDelegate.swift */,
 				BD34B86923CB841E0065333C /* SceneDelegate.swift */,
 				BD34B86B23CB841E0065333C /* ContentView.swift */,
+				BD8A774023DBC0FD00DCFAF6 /* Home.swift */,
+				BD8A774223DE895C00DCFAF6 /* HomeView.swift */,
 				BD52A3A523D924EB00180454 /* MenuView.swift */,
 				BD34B86D23CB84200065333C /* Assets.xcassets */,
 				BD34B87223CB84200065333C /* LaunchScreen.storyboard */,
@@ -272,6 +278,8 @@
 			files = (
 				BD34B86823CB841E0065333C /* AppDelegate.swift in Sources */,
 				BD52A3A623D924EB00180454 /* MenuView.swift in Sources */,
+				BD8A774123DBC0FD00DCFAF6 /* Home.swift in Sources */,
+				BD8A774323DE895C00DCFAF6 /* HomeView.swift in Sources */,
 				BD34B86A23CB841E0065333C /* SceneDelegate.swift in Sources */,
 				BD34B86C23CB841E0065333C /* ContentView.swift in Sources */,
 			);
