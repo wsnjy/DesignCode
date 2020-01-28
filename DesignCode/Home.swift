@@ -35,6 +35,7 @@ struct Home: View {
                 .animation(.spring(response: 0.5, dampingFraction: 0.64, blendDuration: 0))
                 .onTapGesture {
                     self.showProfile.toggle()
+            
             }
             .gesture(
                 DragGesture().onChanged { value in

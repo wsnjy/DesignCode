@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD24569223E01C6B0093291F /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24569123E01C6B0093291F /* UpdateList.swift */; };
+		BD24569423E025F80093291F /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24569323E025F80093291F /* UpdateDetail.swift */; };
+		BD24569623E032D90093291F /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24569523E032D90093291F /* UpdateStore.swift */; };
+		BD24569823E03A880093291F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24569723E03A880093291F /* TabBar.swift */; };
 		BD34B86823CB841E0065333C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34B86723CB841E0065333C /* AppDelegate.swift */; };
 		BD34B86A23CB841E0065333C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34B86923CB841E0065333C /* SceneDelegate.swift */; };
 		BD34B86C23CB841E0065333C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34B86B23CB841E0065333C /* ContentView.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD24569123E01C6B0093291F /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		BD24569323E025F80093291F /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		BD24569523E032D90093291F /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		BD24569723E03A880093291F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		BD34B86423CB841E0065333C /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD34B86723CB841E0065333C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD34B86923CB841E0065333C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +119,10 @@
 				BD8A774023DBC0FD00DCFAF6 /* Home.swift */,
 				BD8A774223DE895C00DCFAF6 /* HomeView.swift */,
 				BD52A3A523D924EB00180454 /* MenuView.swift */,
+				BD24569123E01C6B0093291F /* UpdateList.swift */,
+				BD24569323E025F80093291F /* UpdateDetail.swift */,
+				BD24569523E032D90093291F /* UpdateStore.swift */,
+				BD24569723E03A880093291F /* TabBar.swift */,
 				BD34B86D23CB84200065333C /* Assets.xcassets */,
 				BD34B87223CB84200065333C /* LaunchScreen.storyboard */,
 				BD34B87523CB84200065333C /* Info.plist */,
@@ -277,11 +289,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD34B86823CB841E0065333C /* AppDelegate.swift in Sources */,
+				BD24569623E032D90093291F /* UpdateStore.swift in Sources */,
+				BD24569423E025F80093291F /* UpdateDetail.swift in Sources */,
+				BD24569223E01C6B0093291F /* UpdateList.swift in Sources */,
 				BD52A3A623D924EB00180454 /* MenuView.swift in Sources */,
 				BD8A774123DBC0FD00DCFAF6 /* Home.swift in Sources */,
 				BD8A774323DE895C00DCFAF6 /* HomeView.swift in Sources */,
 				BD34B86A23CB841E0065333C /* SceneDelegate.swift in Sources */,
 				BD34B86C23CB841E0065333C /* ContentView.swift in Sources */,
+				BD24569823E03A880093291F /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
