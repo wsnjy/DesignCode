@@ -28,7 +28,7 @@ struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             TabBar().previewDevice("iPhone X")
-            TabBar().previewDevice("iPhone 8")
+//            TabBar().previewDevice("iPhone 8")
         }
     }
 }
